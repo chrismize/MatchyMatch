@@ -360,6 +360,14 @@ export const GAMES = [
     isNew: true,
     createdAt: '2026-08-27T22:00:00Z',
   },
+  {
+    id: 'patternpanic',
+    name: 'Pattern Panic',
+    description: 'Click the target pattern as fast as you can!',
+    tag: 'Reflex',
+    isNew: true,
+    createdAt: '2026-08-27T23:00:00Z',
+  },
 ]
 
 export const GAME_IDS = GAMES.map((g) => g.id)
